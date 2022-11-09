@@ -19,7 +19,7 @@
             "header header header header"
             "main imagen imagen imagen"
             "main imagen imagen imagen"
-            "footer footer footer footer";
+            "footer_index footer_index footer_index footer_index";
             background-color: FFD100;
         }
 
@@ -333,8 +333,8 @@
 
                 }
                 .cumple_1{
-                    height: 400px;
-                    width: 500px;
+                    height: 250px;
+                    width: 300px;
                     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9); 
                     border-radius: 4px;
                     display: flex;
@@ -345,8 +345,8 @@
                 transform: translateY(-5%);
                 }
                 .cumple_2{
-                    height: 500px;
-                    width: 600px;
+                    height: 400px;
+                    width: 500px;
                     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9); 
                     border-radius: 4px;
                     display: flex;
@@ -359,8 +359,8 @@
                 }
 
                 .cumple_3{
-                    height: 400px;
-                    width: 500px;
+                    height: 250px;
+                    width: 300px;
                     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9); 
                     border-radius: 4px;
                     display: flex;
@@ -369,6 +369,12 @@
                 .cumple_3:hover{
                     box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
                 transform: translateY(-5%);
+                }
+                .footer2{
+                    height:70px;
+                    background-color: D6D6D6;
+                    bottom:0;
+                    width: 100%;
                 }
                                                                 /* Contacto */
                     .container_titulo_contacto{  display: flex;
@@ -391,7 +397,7 @@
                     .container_contacto{
                         display: flex;
                         flex-direction: column;
-                        margin:100px;
+                        margin:120px;
                         margin-left: 300px;
                         font-size: 32px;
                         font-family: 'Roboto', sans-serif;
@@ -432,9 +438,9 @@
                         align-items: center;
                     }
                     .gmail{
-                        height: 100px;
-                        width: 100px;
-                        margin: 20px;
+                        height: 120px;
+                        width: 120px;
+                        margin: 10px;
                     }
                     .container_gmail{
                         display: flex;
@@ -449,13 +455,14 @@
                                 "header header header header"
                                 "main main main main"
                                 "imagen imagen imagen imagen"
-                                "footer footer footer footer";
+                                "footer_index footer_index footer_index footer_index";
                             }
                         
                             header .nav_container .lista_nav a{
                                     color: white;
                                     font-size: 10px;
                                     padding: 3px;
+                                    
                             }
                         .logo{
                             height: 60px;
@@ -468,33 +475,53 @@
                             .navigation a{
                                     font-size: 10px;
                                     
-                                }
-                                ul{
-                                    height: 50%;
-                                    display: flex;
-                                    justify-content: center;
-                                    font-size: 30px;
-                                }        
+                                }     
                                 .container {
          
                                     height: 100%;
                                     margin-left: 35px;
                                 }
-                   
+                                .info{
+                                    list-style-type:disc;
+                                    font-size: 20px;
+                                    font-family: 'Nunito', sans-serif;
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 100%;
+                                    margin-top: 30px;
+                                }
                                                                                 /* SOBRE NOSOTROS MOBILE */
     
-     
+             .Container_principal{
+            
+            width: 100%;
+            height: 100%;
+            margin-bottom: 50px
+        }
+
+        .Container_SN{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            margin-top: 10%;
+            align-items: center;
+            margin-top: 100px;
+                }
 
                 .Titulo_S {
-                font-size: 50px;
+                font-size: 40px;
+                
                 }
 
                 .Container_Li_SN{
+                    height: 450px;
                     width: 300px;
+                    margin-bottom: 50px;
                 }    
 
                 .Li_SN{
-                    font-size: 18px; 
+                    font-size: 15px; 
                 }                                               
                                                                                     /* PRODUCTOS MOBILE */
 
@@ -528,12 +555,14 @@
                 .Container_img_eventos{
                     display: grid;
                     grid-template-columns: 30% 30% 30%;
-                    grid-template-rows: 300px 300px 300px;
+                    grid-template-rows: 300px 300px 300px 70px;
                     grid-row-gap: 30px;
                     grid-template-areas: 
                     "cumple_1 cumple_1 cumple_1"
                     "cumple_2 cumple_2 cumple_2"
-                    "cumple_3 cumple_3 cumple_3";
+                    "cumple_3 cumple_3 cumple_3"
+                    "footer2 footer2 footer2";
+
                     align-items: center;
                     justify-content: center;
                     height: 100%;
@@ -559,13 +588,13 @@
                     height: 100%;
                     width: 100%;
                 }
-                footer{
+                .footer2{
                     grid-area: footer2;
                     height:70px;
                     background-color: D6D6D6;
                     bottom:0;
+                    margin-top:100% ;
                     width: 100%;
-                  
                 }
                                                                                 /* CONTACTO MOBILE */
 
@@ -574,9 +603,9 @@
                         font-size: 50px;
                     }
                     .container_contacto{
-                        margin:0px;
+                        margin:50px;
                         margin-left: 0px;
-                        font-size: 30px;
+                        font-size: 20px;
                         height: 50%;
   
                     }
@@ -610,24 +639,7 @@
             }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        #footer_index{
+        #index_footer{
             grid-area: footer_index;
             height: 100%;
             background-color: D6D6D6;
@@ -640,5 +652,6 @@
             background-color: D6D6D6;
             bottom:0;
             width: 100%;
+
           
         }

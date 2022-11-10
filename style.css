@@ -7,8 +7,6 @@
             flex-direction: column;
             min-height: 100vh;
             background-color: FFD100;
-            
-
         }
                                                                      /* INDEX */
         #index_body {
@@ -43,6 +41,7 @@
             border:solid 1px;
             top: 0;
             width: 100%;
+            position: fixed;
         }
 
     .logo{
@@ -370,6 +369,11 @@
                     height:70px;
                     background-color: D6D6D6;
                     bottom:0;
+                    width: 100%;
+                }
+                .img-carousel-custom{
+                    height: 500px;
+                    object-fit: cover;
                     width: 100%;
                 }
                                                                 /* Contacto */

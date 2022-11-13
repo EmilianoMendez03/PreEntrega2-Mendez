@@ -6,7 +6,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            width: 98%;
+            width: 99.9%;
             background-color: FFD100;
         }
                                                                      /* INDEX */
@@ -119,7 +119,7 @@
         main{ 
             grid-area: main;
         } 
-    .container {
+    .container-2 {
          
             height: 40vw;
            margin-left: 35px;
@@ -260,14 +260,14 @@
 
             }
 
-       
+         
             .card-product{
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
                 background-color: 00A6FB;
                 height:100%;
-                width: 100%;
+                width: 90%;
                 margin:35px;
                 font-family: 'Roboto', sans-serif;
                 font-weight: 700;
@@ -275,6 +275,7 @@
                 border:solid 2px black;
                 box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5); 
             }
+            
             .img_inflable{
                 height: 95%;
                 width: 250px;
@@ -291,78 +292,27 @@
             }
                                                                 /* Eventos */
                 .Container_h1_eventos{
-                    display: flex;
-                    flex-direction: column;
-                    align-content: center;
-                    align-items: center;
+                    text-align-last: center;
                     margin-top: 5%;
-                    align-items: center;
+            
                 }
                 .eventos{
-                    margin:10px;
+                    margin:50px;
                     font-family: 'Roboto', sans-serif;
                     font-weight:800;
                     font-style: italic;
                     font-size: 64px;
                     text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); 
                         }
-                .Container_img_eventos{
-                    display: flex;
-                    justify-content: space-around;
-                    height: 700px;
-                    align-items: center;
-                   
-
-                }
-                .cumple_1{
-                    height: 250px;
-                    width: 300px;
-                    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9); 
-                    border-radius: 4px;
-                    display: flex;
-                    transition: all 400ms ease;
-                }
-                .cumple_1:hover{
-                    box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
-                transform: translateY(-5%);
-                }
-                .cumple_2{
-                    height: 400px;
-                    width: 500px;
-                    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9); 
-                    border-radius: 4px;
-                    display: flex;
-                    transition: all 400ms ease;
-                }
-
-                .cumple_2:hover{
-                    box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
-                transform: translateY(-5%);
-                }
-
-                .cumple_3{
-                    height: 250px;
-                    width: 300px;
-                    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9); 
-                    border-radius: 4px;
-                    display: flex;
-                    transition: all 400ms ease;
-                }
-                .cumple_3:hover{
-                    box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
-                transform: translateY(-5%);
-                }
-                .footer2{
-                    height:70px;
-                    background-color: D6D6D6;
-                    bottom:0;
-                    width: 100%;
+                .carousel{
+                    margin: 5%;
                 }
                 .img-carousel-custom{
-                    height: 500px;
-                    object-fit: cover;
-                    width: 100%;
+                height: 600px;
+                object-fit: cover;
+                width: 700px;
                 }
+               
                                                                 /* Contacto */
                     .container_titulo_contacto{  display: flex;
                         flex-direction: column;

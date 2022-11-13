@@ -43,6 +43,7 @@
             top: 0;
             width: 100%;
             position: fixed;
+            z-index: 3;
         }
 
     .logo{
@@ -208,7 +209,7 @@
 }
         .Titulo_S {
          margin:10px;
-         font-family: 'Roboto', sans-serif;
+         font-family: 'Nunito', sans-serif;
          font-weight:800;
          font-style: italic;
          font-size: 64px;
@@ -252,7 +253,7 @@
 
             .h1_productos{
                 margin:10px;
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Nunito', sans-serif;
                 font-weight:800;
                 font-style: italic;
                 font-size: 64px;
@@ -267,7 +268,7 @@
                 flex-wrap: nowrap;
                 background-color: 00A6FB;
                 height:100%;
-                width: 90%;
+                width: 100%;
                 margin:35px;
                 font-family: 'Roboto', sans-serif;
                 font-weight: 700;
@@ -275,10 +276,10 @@
                 border:solid 2px black;
                 box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5); 
             }
-            
+
             .img_inflable{
-                height: 95%;
-                width: 250px;
+                height: 90%;
+                width: 50%;
                 border-radius: 40px;
                 margin: 10px;
                 border:solid 1px black
@@ -288,7 +289,7 @@
                 flex-direction: column;
                 margin-top: 30px;
                 margin-left: 10px;
-                font-size: 24px;
+                font-size: 15px;
             }
                                                                 /* Eventos */
                 .Container_h1_eventos{
@@ -298,7 +299,7 @@
                 }
                 .eventos{
                     margin:50px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Nunito', sans-serif;
                     font-weight:800;
                     font-style: italic;
                     font-size: 64px;
@@ -325,7 +326,7 @@
                     .titulo_contacto{
                         margin:10px;
                         margin-bottom: 50px;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: 'Nunito', sans-serif;
                         font-weight:800;
                         font-style: italic;
                         font-size: 64px;

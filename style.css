@@ -648,7 +648,11 @@
             background-color: D6D6D6;
             bottom:0;
             width: 100%;
+        }
+        #footer_contacto{
             position: absolute;
-
-          
+            height:70px;
+            background-color: D6D6D6;
+            bottom:0;
+            width: 100%;
         }

@@ -9,19 +9,8 @@
             width: 99.9%;
             background-color: FFD100;
         }
-                                                                     /* INDEX */
-        #index_body {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr ;
-            grid-template-rows:10% 41% 41% 8%;
-            grid-template-areas: 
-            "header header header header"
-            "main imagen imagen imagen"
-            "main imagen imagen imagen"
-            "footer_index footer_index footer_index footer_index";
-            background-color: FFD100;
-            width: 99.8%;
-        }
+                                                                     /* HEADER */
+     
 
 
         .imagen{
@@ -31,30 +20,27 @@
             align-items: center;
             justify-content:flex-start;
         }
-    header {
-        grid-area: header;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            background-color: 333533;
-            height: 60px;
-            box-shadow:0px 0px 20px 5px; 
-            border:solid 1px;
+        .custom-container{
+            padding: 0;
             top: 0;
+            background-color:333533;
+            height: 90px;
             width: 100%;
-            position: fixed;
-            z-index: 3;
+          
         }
 
     .logo{
-            height: 120px;
+            height: 150px;
             background-color: 333533;
             box-shadow:0px 0px 25px 3px; 
             border-radius:0 0 40px 0px;
             overflow: hidden;
             border:solid 1px;
+
         }
- 
+ .brand-custom{
+    
+ }
     header .nav_container .navigation {
         display: flex;
         flex-direction: row;
@@ -77,59 +63,54 @@
         font-weight: 800;
     }
 
+    .toggler-custom{
+        background-color: aliceblue;
+    }
+    .nav-custom{
+        position: fixed;
+        width: 100%;  
+        height: 70px;  
+     
+    }
+    .nav-link{
+        color: white;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        border: 0;
+    }
+    .navbar-collapse{
+        flex-grow: 0.05;
+        top: 0;
+    }
+    
+    .navbar-custom{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+      
+    }
+
+       
+                                                                                /* INDEX */
+    
 
 
 
-        .nav-link__Inicio{
-          
-        display: inline-flex;
-            transition: all 400ms ease;
-        }
-        .nav-link__Inicio:hover{
-            transform: translateY(10%);
-        }
-        .nav-link__Productos{
-            display: inline-flex;
-            transition: all 400ms ease;
-        }
-        .nav-link__Productos:hover{
-            transform: translateY(15%);
-        }
-        .nav-link__SobreNosotros{
-            display: inline-flex;
-            transition: all 400ms ease;
-        }
-        .nav-link__SobreNosotros:hover{
-           
-            transform: translateY(15%);
-        }
-        .nav-link__Eventos{
-            display: inline-flex;
-            transition: all 400ms ease;
-        }
-        .nav-link__Eventos:hover{
-            transform: translateY(15%);
-        }
-        .nav-link__Contacto{
-            display: inline-flex;
-            transition: all 400ms ease;
-        }
-        .nav-link__Contacto:hover{
-            transform: translateY(15%);
-        }
-        main{ 
-            grid-area: main;
-        } 
-    .container-2 {
-         
-            height: 40vw;
-           margin-left: 35px;
-            display: flex;
-            flex-direction: row;
-            justify-content:center;
-            align-items:center;
-        }
 
+
+    .container-index{
+        position: absolute;
+   
+
+    }
+
+    .h1_index{
+     
+        font-family: 'Nunito', sans-serif;
+        font-weight:800;
+        font-style: italic;
+        font-size: 64px;
+        text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); 
+    }
     .info{
             list-style-type:disc;
             font-size: 30px;
@@ -387,46 +368,32 @@
                     }
                                                                                 /* INDEX MOBILE */
 @media screen and (max-width:768px)
-            {
-                            #index_body{
-                                grid-template-areas: 
-                                "header header header header"
-                                "main main main main"
-                                "imagen imagen imagen imagen"
-                                "footer_index footer_index footer_index footer_index";
-                            }
+                {
                         
-                            header .nav_container .lista_nav a{
-                                    color: white;
-                                    font-size: 10px;
-                                    padding: 3px;
-                                    
-                            }
-                        .logo{
-                            height: 60px;
+                        .h1_index{
+                            margin-top: 40px;
+                            font-size: 50px;
+                            text-align:center ;
+
                         }
-                        header {
-                            grid-area: header;
-                                display: flex;
-                                justify-content: space-between; 
+                        .logo {
+                            height: 100px;
+                        }
+                
+                            .imagen{
+                                margin: 0px;
                             }
-                            .navigation a{
-                                    font-size: 10px;
-                                    
-                                }     
-                                .container {
-         
-                                    height: 100%;
-                                    margin-left: 35px;
-                                }
+                               .container-index{
+                                position: absolute;
+                               }
                                 .info{
                                     list-style-type:disc;
-                                    font-size: 20px;
+                                    font-size: 25px;
                                     font-family: 'Nunito', sans-serif;
                                     display: flex;
                                     flex-direction: column;
                                     width: 100%;
-                                    margin-top: 30px;
+                                    margin-top: 1opx;
                                 }
                                                                                 /* SOBRE NOSOTROS MOBILE */
     
@@ -464,7 +431,7 @@
                                                                                     /* PRODUCTOS MOBILE */
 
                 .h1_productos{
-                    margin:10px;
+                    margin:40px;
                     font-size: 50px;
                 }                
                 
@@ -481,7 +448,7 @@
                     border:solid 1px black
                 }
                 .text_product{
-                    font-size: 20px;
+                    font-size: 14px;
                 }
 
                                                                                 /* EVENTOS MOBILE */
@@ -574,26 +541,23 @@
 
 
 
-            }
+            
 
 
-        #index_footer{
-            grid-area: footer_index;
-            height: 100%;
-            background-color: D6D6D6;
-            width: 100%;   
-        }
+                }
 
         footer{
             height:70px;
             background-color: D6D6D6;
             bottom:0;
             width: 100%;
+            
         }
-        #footer_contacto{
+        #footer_2{
             position: absolute;
             height:70px;
             background-color: D6D6D6;
             bottom:0;
             width: 100%;
+            margin-top: 100%;
         }

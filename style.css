@@ -38,9 +38,7 @@
             border:solid 1px;
 
         }
- .brand-custom{
-    
- }
+
     header .nav_container .navigation {
         display: flex;
         flex-direction: row;
@@ -104,7 +102,7 @@
     }
 
     .h1_index{
-     
+     position: fixed;
         font-family: 'Nunito', sans-serif;
         font-weight:800;
         font-style: italic;

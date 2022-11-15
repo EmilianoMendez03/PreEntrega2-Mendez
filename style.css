@@ -19,7 +19,9 @@
           position: fixed;
           z-index: 5;
         }
-
+        .navbar-collapse{
+            background-color:333533 ;
+        }
     .logo{
             height: 150px;
             background-color: 333533;
@@ -323,7 +325,7 @@
 
                         }
                         .logo {
-                            height: 100px;
+                            height: 80px;
                         }
                 
                             .imagen{

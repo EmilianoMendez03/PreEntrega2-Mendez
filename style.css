@@ -15,14 +15,14 @@
         .custom-container{
             padding: 0;
             top: 0;
-            background-color:02cecb;
+            background-color:0086eb;
             height: 100px;
             width: 100%;
           position: fixed;
           z-index: 5;
         }
         .navbar-collapse{
-            background-color:02cecb ;
+            background-color:0086eb ;
         }
     .logo{
             height: 150px;

@@ -102,45 +102,31 @@ body {
     transform: translateY(-5%); }
 
 /* SOBRE NOSOTROS */
-.Container_principal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  height: 100%; }
-  .Container_principal .Container_SN {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    align-items: center;
-    margin-top: 5%; }
-    .Container_principal .Container_SN .Titulo_S {
-      margin: 10px;
-      font-family: 'Nunito', sans-serif;
-      font-weight: 800;
-      font-style: italic;
-      font-size: 64px;
-      text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); }
-  .Container_principal .Container_Li_SN {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: 00A6FB;
-    border-radius: 40px;
-    width: 600px;
-    border: solid 2px black;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7); }
-    .Container_principal .Container_Li_SN .Li_SN {
-      font-size: 24;
-      font-family: 'Nunito', sans-serif;
-      font-weight: 300;
-      font-style: italic;
-      list-style-type: disc;
-      color: FFFFFC;
-      margin: 30px;
-      width: 100%;
-      text-align: center; }
+.Titulo_S {
+  margin: 100px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 64px;
+  text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  text-align: center; }
+
+.Li_SN {
+  background-color: 00A6FB;
+  border-radius: 40px;
+  width: 600px;
+  border: solid 2px black;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+  font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  list-style-type: disc;
+  color: FFFFFC;
+  margin: 30px;
+  width: 30%;
+  text-align: center;
+  padding: 40px; }
 
 /* PRODUCTOS */
 .container_h1 {
@@ -160,8 +146,8 @@ body {
   flex-wrap: nowrap;
   background-color: 00A6FB;
   height: 100%;
-  width: 100%;
-  margin: 35px;
+  width: 90%;
+  margin: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   border-radius: 40px;
@@ -181,18 +167,19 @@ body {
     font-size: 15px; }
 
 /* Eventos */
+.container_h1_eventos {
+  text-align-last: center;
+  margin-top: 5%; }
+  .container_h1_eventos .eventos {
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 64px;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); }
+
 .carousel {
   margin: 2%; }
-  .carousel .Container_h1_eventos {
-    text-align-last: center;
-    margin-top: 5%; }
-    .carousel .Container_h1_eventos .eventos {
-      margin: 50px;
-      font-family: 'Nunito', sans-serif;
-      font-weight: 800;
-      font-style: italic;
-      font-size: 64px;
-      text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); }
   .carousel .img-carousel-custom {
     height: 600px;
     object-fit: cover;
@@ -200,12 +187,8 @@ body {
 
 /* Contacto */
 .container_titulo_contacto {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  margin-top: 5%;
-  align-items: center; }
+  text-align-last: center;
+  margin-top: 5%; }
   .container_titulo_contacto .titulo_contacto {
     margin: 10px;
     margin-bottom: 50px;
@@ -215,50 +198,61 @@ body {
     font-size: 64px;
     text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); }
 
-.container_contacto {
-  display: flex;
-  flex-direction: column;
-  margin: 120px;
+.container_whatsapp {
   margin-left: 300px;
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: 900;
   justify-content: center;
-  height: 300px;
-  width: 80%; }
-  .container_contacto .container_whatsapp {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-    .container_contacto .container_whatsapp .whatsapp {
-      height: 100px;
-      width: 100px;
-      margin: 20px; }
-  .container_contacto .container_instagram {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-    .container_contacto .container_instagram .instagram {
-      height: 100px;
-      width: 100px;
-      margin: 20px; }
-  .container_contacto .container_facebook {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-    .container_contacto .container_facebook .facebook {
-      height: 100px;
-      width: 100px;
-      margin: 20px; }
-  .container_contacto .container_gmail {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-    .container_contacto .container_gmail .gmail {
-      height: 120px;
-      width: 120px;
-      margin: 10px; }
+  width: 80%;
+  align-items: center; }
+  .container_whatsapp .whatsapp {
+    height: 100px;
+    width: 100px;
+    margin: 20px; }
+
+.container_instagram {
+  margin-left: 300px;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  justify-content: center;
+  width: 80%;
+  align-items: center; }
+  .container_instagram .instagram {
+    height: 100px;
+    width: 100px;
+    margin: 20px; }
+
+.container_facebook {
+  margin-left: 300px;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  justify-content: center;
+  width: 80%;
+  align-items: center; }
+  .container_facebook .facebook {
+    height: 100px;
+    width: 100px;
+    margin: 20px; }
+
+.container_gmail {
+  margin-left: 300px;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  justify-content: center;
+  width: 80%;
+  align-items: center; }
+  .container_gmail .gmail {
+    height: 120px;
+    width: 120px;
+    margin: 10px; }
 
 @media screen and (max-width: 768px) {
   .imagen {

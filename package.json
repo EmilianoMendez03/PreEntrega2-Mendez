@@ -1,7 +1,7 @@
 {
   "name": "proyecto-coder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web sobre empresa familiar llamada Emiliano Inflables, dedicada a alquiler de juegos inflables para eventos varios",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
